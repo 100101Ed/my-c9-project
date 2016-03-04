@@ -1,0 +1,69 @@
+<html>
+     <head> <!--#include file="js-pages/header.html" -->
+     </head>
+     <body class="service-heading">
+          <form name="myForm" onsubmit="return calCircunference()" method="post">
+               <table>
+                    <tr><td colspan="2"><h3>Calculate Circunference Of a Circle</h3></h3><td></tr>
+                    <tr><td></td></tr>
+                    <tr><td>Radius<td><input type="text" name="num1"></td></td></tr>
+                    <tr><td colspan="2">Result: <input type="submit" value="Submit"><td></tr>
+          </form>
+          <script src="../js/my-script.js"></script>
+
+<script language="Javascript">
+function hideNotSquare()
+{
+    //Needs tobe a for loop with an array hid or show....
+    document.getElementById("trianble").style.visibility="hidden";
+    document.getElementById("square").style.visibility="visible";    
+    document.getElementById("Rectangle").style.visibility="visible";    
+    document.getElementById("parallelogram").style.visibility="visible";    
+    document.getElementById("trapazoid").style.visibility="visible";    
+    document.getElementById("circle").style.visibility="visible";    
+    document.getElementById("ellipse").style.visibility="visible";    
+    document.getElementById("sector").style.visibility="visible";    
+    /*
+    http://www.mathsisfun.com/area.html
+                <tr><th>Object Type</th><th>
+                <th><tr>
+                <input type="radio" name="trianble"   value="trianble" onClick="hideB()">Seller
+                <input type="radio" name="cat" value="buyer" onclick="hideA()"> buyer
+                </th></tr>
+            <div style="position: absolute; left: 30px; top: 100px;visibility:hidden" id="A">
+                     Seller Name<input type='text' name='sname'><br>
+          Seller Product<input type='text' name='sproduct'>
+            </div>
+
+            <div style="position: absolute; left: 30px; top: 100px; visibility:hidden" id="B">
+             Buyer Name<input type='text' name='bname'><br>
+           Buy Product<input type='text' name='bproduct'>
+            </div>
+            
+            $(document).ready(function () {
+
+function checkradiobox(){
+    var radio = $("input[name='example']:checked").val();
+    $('#field1, #field2').attr('disabled',true);
+    if(radio == "Yes"){
+        $('#field1').attr('disabled',false);
+        $("#field1").focus();
+    }else if(radio == "No"){
+        $('#field2').attr('disabled',false);
+        $("#field2").focus();
+    }
+}
+
+$("#example_0, #example_1").change(function () {
+    checkradiobox();
+});
+
+checkradiobox();
+
+}); 
+    */
+}
+</script>
+
+</head>
+</html>
